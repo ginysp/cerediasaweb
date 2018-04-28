@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+}
+
+h2{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:0 0 60px 0;
+}
+
+img {
+   max-width:100%;
+}
+
+.header{
+	text-align:center;
+	background:url(../img/fondoindex.jpg) left top repeat;	
+	color:#ffff;
+}
+
+.menu{
+	box-shadow:0 4px 5px -3px;	
+}
+
+.menuletras{
+	text-align:center;
+	margin:10px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.menuletras li{
+	display:inline;
+	margin:0 1px;
+}
+.menuletras li a{
+	display:inline-block;
+	color:#000000;
+	text-transform:uppercase;
+	line-height:20px;
+	margin:17px 32px;	
+}
+
+.menuletras li a:hover{ 
+	color: #FF0000;
+}
+
+.bloque{
+	padding:90px 0 110px;
+}
+.bloque.otro{
+	background:#E6E6E6;
+}
+
+.divlista{
+	padding:0 0 0 0;
+	font-size:14px;
+	margin-bottom:40px;
+}
+.divlista-icono{
+	float:left;
+	width:60px;
+	font-family: 'FontAwesome';
+	font-size:38px;
+}
+
+.divlista-elemento{
+	overflow:hidden;	
+}
+
+.serviciolista{	
+	text-align: center;	
+	margin-bottom:24px;	
+}
+
+.serviciolista img{
+	width:200px;
+}
+
+.marcas{
+	text-align:center;
+	margin:20px;	
+	height:200px;
+	width:200px;
+	float:left;
+	padding:10;
+}
+.marcas img{
+	margin-bottom:25px;
+	width:200px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background:url(../img/footerfondo.jpg) left top repeat;
+	padding:35px 0 35px;
+	color:#ffff;
+	text-align:center;
+	font-size:14px;
+}
+
+.delay-02s { 
+	animation-delay: 0.2s; 
+	-webkit-animation-delay: 0.2s; 
+}
+
+.delay-03s { 
+	animation-delay: 0.3s; 
+	-webkit-animation-delay: 0.3s; 
+}
+
+.delay-05s { 
+	animation-delay: 0.5s; 
+	-webkit-animation-delay: 0.5s; 
+}
+
+.delay-07s { 
+	animation-delay: 0.7s; 
+	-webkit-animation-delay: 0.7s; 
+}
+
+
+
+
+
+
+.bloque.contacto{
+	padding:90px 0 100px;
+}
+
+
+.datoscontacto{
+	font-size:15px;
+	margin:0 0 14px 68px;
+	padding-left:0;
+}
+.datoscontacto h3{
+	font-size: 15px;
+	font-weight:400;
+	float:left;
+	width:102px;
+	margin-right:12px;
+	line-height:28px;
+}
+.datoscontacto h3 i{
+	font-style:normal;
+	font-size:18px;
+	color:#222222;
+	font-family: 'FontAwesome';
+	font-weight:normal;
+	margin-right:7px;
+}
+
+
+.form{
+	margin:0 66px 0 30px;
+}
+.txtbox{
+	padding:15px 16px;
+	border:1px solid #cccc;
+	width:100%;
+	height:50px;
+	display:block;
+	border-radius:4px;
+	font-size:15px;
+	color:#aaa;
+	font-family: 'Open Sans', sans-serif;
+	margin:0 0 15px 0;
+}
+.txtbox:focus {
+	border: 1px solid #ff0000;
+	outline:0;	
+}
+
+.txtbox.text-area{
+	height:165px;
+	resize:none;
+	overflow:auto;
+}
+
+.input-btn{
+	width:175px;
+	height:50px;
+	background:#ff0000;
+	border-radius:4px;
+	color:#ffffff;
+	font-size:14px;
+	text-transform:uppercase;	
+	border:0px;	
+}
+
+.input-btn:hover{
+	background: #111;
+	color: #fff;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: #7cc576;
+    border:1px solid #7cc576;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block;
+}
+
+
+
+
+
+
+		
+			
+
+
+
+
+
+
+

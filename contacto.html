@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CEREDIASA S.A</title>
+		<link rel="icon" href="favicon.png" type="image/png">	
+	
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css">	
+		<link href="css/animate.css" rel="stylesheet" type="text/css">	
+
+		<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>	
+		<script type="text/javascript" src="js/wow.js"></script>	
+		
+		<script type="text/javascript" src="js/contacto.js"></script>	
+	</head>
+	
+	<body>
+		<header class="header" id="header">		
+			<div class="container">
+				<h1>Centro de Reparación y Diagnóstico Automotriz Salazar</h1>
+				<h1 class="animated fadeInDown delay-07s">CEREDIASA S.A</h1>					
+			</div>
+		</header>
+
+		<nav class="menu">		
+			<div class="container">
+				<ul class="menuletras">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="marcas.html">Marcas</a></li>
+					<li><img src="img/cerediasa96.png" alt="Logo CEREDIASA"></li>
+					<li><a href="galeria.html">Galería</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="reserva.html">Reserva Online</a></li>
+				</ul>		
+			</div>
+		</nav>
+	
+	<div class="container">
+		<section class="bloque contacto">
+			<h2>Contactenos</h2>	
+			<div class="row">
+				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+					<div class="datoscontacto">
+						<h3><i class="fa-map-marker"></i>Direccion:</h3>
+						<span>Estamos ubicados de la rotonda de Desamparados 150 metros al este carretera a San Francisco de Dos Ríos</span>
+					</div>
+					<div class="datoscontacto">
+						<h3><i class="fa-phone"></i>Tel:</h3>
+						<span>2227-85-23</span>
+					</div>
+					<div class="datoscontacto">
+						<h3><i class="fa-envelope"></i>Correo:</h3>
+						<span>cerediasa_sa@yahoo.com</span>
+					</div>
+					<div class="datoscontacto">
+						<h3><i class="fa-clock-o"></i>Horario:</h3>
+						<span><strong>Lun - Vier:</strong> 7:30am - 6pm<br><strong>Sab:</strong> 8am - 12md<br><strong></span>
+					</div>					
+				</div>
+				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+					<div class="form">
+						<div id="sendmessage">Su mensaje ha sido enviado</div>
+						<div id="errormessage">No ha sido posible enviar el mensaje</div>
+						<form action="" method="post" role="form" class="contactenos">
+							<div class="form-group">
+								<input type="text" name="nombre" class="form-control txtbox" id="nombre" placeholder="Nombre" data-rule="minlen:4" data-msg="Debe especificar un nombre valido" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control txtbox" name="email" id="email" placeholder="Correo electronico" data-rule="email" data-msg="Debe especificar un correo valido" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control txtbox" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:1" data-msg="Debe indicar un asunto" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control txtbox text-area" name="mensaje" rows="5" data-rule="required" data-msg="Debe indicar un mensaje" placeholder="Mensaje"></textarea>
+								<div class="validation"></div>
+							</div>
+
+							<div class="text-center"><button type="submit" class="input-btn">Enviar</button></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+			<div class="container">			
+				<span class="copyright">&copy; 2018 CEREDIASA S.A - Todos los derechos reservados</span>		
+		</footer>
+		<script>
+			new WOW().init();		
+		</script>
+	</body>
+</html>
